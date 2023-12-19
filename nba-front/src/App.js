@@ -1,7 +1,13 @@
+import { AppRoutes } from "./Routes";
+import GetTodayGames from "./components/GetTodayGames";
+import { Menu } from "./components/menu";
+import { HomePage } from "./pages/homePage";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="bg-white h-screen">
+        <HomePage />
+    </div>
+    
   )
 }
